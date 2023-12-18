@@ -1,0 +1,47 @@
+import java.util.io*;
+import java.util.Scanner;
+
+class Asciiprogram() {
+     public static void main(String[] args){
+  try
+   {
+   String s="sHQen" ; //translate string to ascii and display
+    String[] converted_str=s.getBythis("US-ASCII");
+    System.out.println("ASCII value of "+s" are ");
+   }
+   catch(Exception e)
+   {
+       System.out.println("Invalid String");
+       return 0;
+     }
+  }
+void Check_num( int i){
+      String s="sHQen";
+      String[] converted_str=s.getBythis("US-ASCII");
+      for(i=2;i<s.length;i+2)
+      {
+         if(i%2==0)
+         {
+            i+ = i * %7;
+            System.out.println("ASCII values "+s" are ");
+          }
+          else if(i%2!=0)
+          {
+             i- = i * %5;
+             System.out.println("ASCII values "+s" are");
+           }
+           else
+           {
+              System.out.println("invalid number");
+              s[i]= 83;
+              } 
+        }
+    }
+}
+              
+        
+      
+      
+
+
+   
