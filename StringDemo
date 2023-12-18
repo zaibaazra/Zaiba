@@ -1,1 +1,29 @@
-
+package p1;
+import java.util.Scanner;
+class StringDemo()
+{
+   public static void SubString(String s, int x)
+    {
+      String s = "abccdbacca";
+      String a="";
+       Scanner sc= new Scanner(System.in);  // takes  the number x from the user
+       int x = sc.NextInt(); 
+       int i,j;
+       for(i=0;i<x;i++)
+          for(j=i;j<=n;j--)
+          {
+              if(s[i]==a[j-1])
+             {
+                 count++;
+               }
+              else
+             { 
+                return 0;
+              }
+       }
+     }
+     public static void main(String[] args)
+      {
+            System.out.println(s,s.length);
+       }
+}
